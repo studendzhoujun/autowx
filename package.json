@@ -1,6 +1,6 @@
 {
   "name": "autowx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generator weex project",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^2.3.2",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
