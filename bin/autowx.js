@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 const program = require('commander')
-console.log('autoweex')
 
 program.version(require('../package').version)
 
@@ -14,6 +13,13 @@ program
         require('../command/add')()
     })
 
+program
+    .command('create')
+    .description('init a project')
+    .alias('c')
+    .action(()=>{
+        require('../command/create')()
+    })
 
 
 
